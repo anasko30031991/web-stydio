@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body class="body">
+     <header class="header">
+    <div class="container header-inner-wrapper">
+        
+        <a class="logo-link" href="./index.html">
+            <img class="logo" src="./images/Logo.png" alt="Логотип веб-студіо">
+        </a>
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Studio</a></li>
+                <li class="nav-item"><a href="./portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <address class="header-address">
+            <ul class="info-list">
+                <li class="info-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="info-item"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+        <button class="menu-open-btn" aria-expanded="false" aria-controls="mobile-menu">
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#2E2F42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="3" y1="6" x2="21" y2="6" />
+      <line x1="3" y1="12" x2="21" y2="12" />
+      <line x1="3" y1="18" x2="21" y2="18" />
+    </svg>
+        </button>
+    </div>
+</header>
+<div class="mobile-menu-overlay" id="mobile-menu">
+    <button class="menu-close-btn" aria-label="Закрити меню">✕</button>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="#"><span class="accent">Studio</span></a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+    <address class="mobile-address">
+        <ul class="mobile-info-list">
+            <li class="mobile-item"><a class="mobile-menu-tel" href="tel:+110001111111"><span class="accent">+11 (000) 111-11-11</span></a></li>
+            <li class="mobile-item"><a class="mobile-menu-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        </ul>
+    </address>  
+     <div class="mobile-socials">
+        <a class="mobile-icon" href="#">
+        <svg class="mobile-item-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+        </svg>
+        </a>
+        <a class="mobile-icon" href="#">
+        <svg class="mobile-item-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+        </svg>
+        </a>
+        <a class="mobile-icon" href="#">
+        <svg class="mobile-item-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+        </svg>
+        </a>
+        <a class="mobile-icon" href="#">
+        <svg class="mobile-item-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+        </svg>
+        </a>
+    </div> 
+</div>
+<main>
+    <h1 hidden>Our portfolios</h1>
+    <ul>
+        <li><button type="button">All</button></li>
+        <li><button type="button">Web Site</button></li>
+        <li><button type="button">App</button></li>
+        <li><button type="button">Design</button></li>
+        <li><button type="button">Marketing</button></li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#">
+                <img src="./images/BankingAppInterfaceConcept.img.jpg" alt="App 'Banking App Interface Concept'">
+                <h2>Banking App Interface Concept</h2>
+                <p>App</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/CashlessPayment.img.jpg" alt="Marketing 'Cashless Payment'">
+                <h2>Cashless Payment</h2>
+                <p>Marketing</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/MeditationApp.img.jpg" alt="App 'Meditation App'">
+                <h2>Meditation App</h2>
+                <p>App</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/TaxiService.img.jpg" alt="Marketing 'Taxi Service'">
+                <h2>Taxi Service</h2>
+                <p>Marketing</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/ScreenIllustrations.img.jpg" alt="Design 'Screen Illustrations'">
+                <h2>Screen Illustrations</h2>
+                <p>Design</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/OnlineCourses.img.jpg" alt="Marketing 'Online Gourses'">
+                <h2>Online Courses</h2>
+                <p>Marketing</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/InstagramStoriesConcept.img.jpg" alt="Design 'Instagram Stories Concept'">
+                <h2>Instagram Stories Concept</h2>
+                <p>Design</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/OrganicFood.img.jpg" alt="Web Site 'Organic Food'">
+                <h2>Organic Food</h2>
+                <p>Web Site</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/FreshCoffee.img.jpg" alt="Web Site 'Fresh Coffee'">                                    
+                <h2>Fresh Coffee</h2>
+                <p>Web Site</p>
+            </a>
+        </li>
+    </ul>
+  </main>
+
+       <footer class="footer">
+  <div class="container footer-container">
+
+    <!-- Логотип і опис -->
+    <div class="footer-logo-block">
+      <a href="#" class="footer-logo">Web<span>Studio</span></a>
+      <p class="footer-text">
+        Increase the flow of customers and <br> sales for your business with digital <br> marketing & growth solutions.
+      </p>
+    </div>
+
+    <!-- Соціальні мережі -->
+    <div class="footer-info">
+      <p class="footer-info-title">Social media</p>
+      <ul class="footer-socials">
+        <li>
+          <a class="footer-social-link" href="#">
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="footer-social-link" href="#">
+            <svg class="footer-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="footer-social-link" href="#">
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="footer-social-link" href="#">
+            <svg class="footer-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Форма підписки -->
+    <div class="footer-contact">
+      <form class="footer-form" name="footer-form">
+        <label class="footer-form-label" for="email">Subscribe</label>
+        <div class="footer-form-row">
+          <input class="footer-form-input" type="email" id="email" placeholder="Enter your email" required>
+          <button class="footer-form-btn" type="submit">Subscribe</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</footer>
+<script src="./js/footer-form.js"></script>
+<script src="./js/mobile.js"></script>
+</body>
+</html>
